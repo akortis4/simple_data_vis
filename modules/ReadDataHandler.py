@@ -1,6 +1,9 @@
+#module import
 import sys
 import pandas as pd
 
+#class that takes in csv file_name and delimiter from json input
+#then creates a pandas dataframe object
 class ReadCsv():
     def __init__(self, file_name:str, delimiter:str=','):
         self.file_name = file_name
