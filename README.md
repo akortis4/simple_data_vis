@@ -58,4 +58,4 @@ UserInputHandler --> module to store user input from json input file
 ReadDataHandler --> module used to handle loading of data and creating it as a dataframe
 StatHandler --> create stats for variables
 CreateExcelHandler --> module used to create and format excel, store defualt excel formatting, and writing data to excel
-CreatePlotPng --> module used to create scatter plot pngs
+CreatePlotPngHandler --> module used to create scatter plot pngs
