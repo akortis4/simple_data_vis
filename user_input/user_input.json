@@ -4,5 +4,5 @@
     "dependent_variable": "SalePrice",
     "exclude": ["Id"],
     "export_folder": "C:/Users/adamk/Childrens Presention/output",
-    "chart_png_export": false
+    "chart_png_export": true
 }

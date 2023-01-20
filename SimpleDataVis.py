@@ -8,6 +8,7 @@ from modules.UserInputHandler import ReadJson
 from modules.ReadDataHandler import ReadCsv
 from modules.StatHandler import CreateStats
 from modules.CreateExcelHandler import CreateExcel
+from modules.CreatePlotPngHandler import CreatePlots
 
 #main data visualization class
 class SimpleDataVis():
@@ -25,9 +26,13 @@ class SimpleDataVis():
         user_input = ReadJson(self.input_file).user_input
         #store csv data as pandas dataframe
         data_df = ReadCsv(user_input['file_name'], user_input['delimiter'])
+        #calculate stats
         stats = CreateStats(data_df.data_df, user_input['dependent_variable'], user_input['exclude'])
+        #create excel output
         CreateExcel(data_df.data_df, stats.stat_data, user_input['export_folder'])
-
+        #create scatter plots as images if desired
+        if user_input['chart_png_export']:
+            CreatePlots(data_df.data_df, user_input['dependent_variable'], list(stats.stat_data['ind_var'].keys()), user_input['export_folder'])
 
 #call main
 if __name__ == '__main__':

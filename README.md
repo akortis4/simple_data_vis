@@ -23,6 +23,10 @@ It is located here:
 https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data
 In theory this initial version should work with in csv data set.
 
+#Running the program
+This program is run from the terminal or command line as and assumes you have python set correctly in system path:
+python <directory to script>SimpleDataVis.py <directory and file name to user input json>
+
 #Ouput
 1. Excel
 The first output will be a an excel that notates the dependent variable chosen, and a drop down for
