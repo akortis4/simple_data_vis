@@ -26,6 +26,7 @@ In theory this initial version should work with in csv data set.
 #Running the program
 This program is run from the terminal or command line as and assumes you have python set correctly in system path:
 python <directory to script>SimpleDataVis.py <directory and file name to user input json>
+example: python SimpleDataVis.py ./user_input/user_input.json
 
 #Ouput
 1. Excel
@@ -49,7 +50,7 @@ chart_png_export = True
 #Python Version
 3.11
 
-#Dependent External Modules
+#External Module Dependency
 These modules will need to be install before running the program
 pandas
 matplotlib
@@ -63,3 +64,12 @@ ReadDataHandler --> module used to handle loading of data and creating it as a d
 StatHandler --> create stats for variables
 CreateExcelHandler --> module used to create and format excel, store defualt excel formatting, and writing data to excel
 CreatePlotPngHandler --> module used to create scatter plot pngs
+
+
+#Future Expansions
+1. Handle other file types, .txt, .xml, .json, etc.
+2. Read data from SQL database
+3. Handle data from API or webscraping
+4. Implent UI into the program
+5. Implent on server with UI from Browser screen
+6. Automate process on server with inputs sent directly to program
