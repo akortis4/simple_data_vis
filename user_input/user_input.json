@@ -1,8 +1,8 @@
 {
-    "file_name": "F:/Job Search/Childrens/Project/simple_data_vis/csv_input/train.csv",
+    "file_name": "C:/Users/adamk/Childrens Presention/simple_data_vis/csv_input/train.csv",
     "delimiter": ",",
     "dependent_variable": "SalePrice",
     "exclude": ["Id"],
-    "export_folder": "F:/Job Search/Childrens/Project/output",
+    "export_folder": "C:/Users/adamk/Childrens Presention/output",
     "chart_png_export": true
 }
