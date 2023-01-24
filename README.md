@@ -26,8 +26,9 @@ In theory this initial version should work with in csv data set.
 # Running the program
 This program is run from the terminal or command line as and assumes you have python set correctly in system path
 in the system's environment variables. This application should be downloaded and stored all in one directiry.
-1. Be sure the terminal or command line window is in the same directory as SimpleDataVis.py's location. Also, all
-sub-folders should be in that same directory otherwise it will cause import errors for this example.
+1. Be sure the terminal or command line window is in simple_data_vis directory. This is the same directory
+location of SimpleDataVis.py. Also, all sub-folders should be in that same directory otherwise it will cause 
+import errors for this example.
 
 2. Run the following from the command line: python SimpleDataVis.py ./user_input/user_input.json
 
