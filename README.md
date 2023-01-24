@@ -36,14 +36,14 @@ sub-folders should be in that same directory otherwise it will cause import erro
 The first output will be a an excel that notates the dependent variable chosen, and a drop down for
 all numeric (int, float) independent variables to selected. Once an indpendent variable several
 metrics will be filled in:
-Min
-25%
-Mean
-Median
-75%
-Max
-Variance
-Standard Deviation
+- Min
+- 25%
+- Mean
+- Median
+- 75%
+- Max
+- Variance
+- Standard Deviation
 And a scatter plot chart will be filled plotting the independent variable to the dependent variable
 
 2. Scatter plot charts as png's
