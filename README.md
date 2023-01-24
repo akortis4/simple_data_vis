@@ -48,7 +48,7 @@ And a scatter plot chart will be filled plotting the independent variable to the
 
 2. Scatter plot charts as png's
 These will be a full set of scatter charts saved as png to used in other applications, if
-chart_png_export = True
+chart_png_export = true
 
 # Python Version
 3.11
