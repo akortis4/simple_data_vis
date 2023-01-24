@@ -10,12 +10,12 @@ applications.
 
 # User Input
 This will be a json file with specific user inputs.
-file_name --> (string) file directory and name
-delimiter --> (string) the delimiter used in the file
-dependent_variable --> (string) the column name of the dependent varible, y-axis on charts 
-as_object --> (list) list of strings of variables that may be being read as numeric but need to be treated as objects
-export_folder --> (string) file path to be used for saving the exported data
-chart_png_export --> (bool) default to False, will tell the program to export charts to png objects
+1. file_name --> (string) file directory and name
+2. delimiter --> (string) the delimiter used in the file
+3. dependent_variable --> (string) the column name of the dependent varible, y-axis on charts 
+4. as_object --> (list) list of strings of variables that may be being read as numeric but need to be treated as objects
+5. export_folder --> (string) file path to be used for saving the exported data
+6. chart_png_export --> (bool) default to False, will tell the program to export charts to png objects
 
 # Data set
 I will be using the train.csv data set from Kaggle.com's housing prediciton training competition.
@@ -55,18 +55,18 @@ chart_png_export = True
 
 # External Module Dependency
 These modules will need to be install before running the program
-pandas
-matplotlib
-openpyxl
-json --> most likely installed by default
+1. pandas
+2. matplotlib
+3. openpyxl
+4. json --> most likely installed by default
 
 # Module Descriptions
-SimpleDataVis --> main module used to call and create all other classes
-UserInputHandler --> module to store user input from json input file
-ReadDataHandler --> module used to handle loading of data and creating it as a dataframe
-StatHandler --> create stats for variables
-CreateExcelHandler --> module used to create and format excel, store defualt excel formatting, and writing data to excel
-CreatePlotPngHandler --> module used to create scatter plot pngs
+1. SimpleDataVis --> main module used to call and create all other classes
+2. UserInputHandler --> module to store user input from json input file
+3. ReadDataHandler --> module used to handle loading of data and creating it as a dataframe
+4. StatHandler --> create stats for variables
+5. CreateExcelHandler --> module used to create and format excel, store defualt excel formatting, and writing data to excel
+6. CreatePlotPngHandler --> module used to create scatter plot pngs
 
 # Future Expansions
 1. Handle other file types, .txt, .xml, .json, etc.
